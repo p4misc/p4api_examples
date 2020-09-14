@@ -1,4 +1,4 @@
-# Helix Core APIのサンプルコード集
+# Helix Core APIのミニサンプルコード集
 
 ## P4Pythonのインストール
 
