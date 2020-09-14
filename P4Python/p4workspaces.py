@@ -5,6 +5,7 @@ p4.user = "bruno"
 
 try:
   p4.connect()
+  # p4 workspaces
   workspaces = p4.run( "workspaces" )
   for workspace in workspaces:
     for key in workspace:

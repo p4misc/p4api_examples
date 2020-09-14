@@ -5,6 +5,7 @@ p4.user = "bruno"
 
 try:
   p4.connect()
+  # p4 depots
   depots = p4.run( "depots" )
   for depot in depots:
     for key in depot:

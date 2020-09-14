@@ -5,6 +5,7 @@ p4.user = "bruno"
 
 try:
   p4.connect()
+  # p4 info
   info = p4.run( "info" )
   for key in info[0]:
     print(key, "=", info[0][key])
